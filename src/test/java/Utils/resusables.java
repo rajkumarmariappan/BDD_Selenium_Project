@@ -104,5 +104,6 @@ public String read_text(By xpath) {
 public void cloe_browser()
 {
 	driver.quit();
+	System.out.println("driver quit");
 }
 }
